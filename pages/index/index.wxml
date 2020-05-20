@@ -1,0 +1,34 @@
+<!--pages/index/index.wxml-->
+<sInput class='sinput'></sInput>
+<swiper 
+  autoplay="true"
+  interval="3000"
+  indicator-dots="true"
+  indicator-color="gray"
+  indicator-active-color="black"
+  circular="true"
+  class="swiper"
+>
+<swiper-item wx:for='{{swiper_list.message}}' wx:key="index">
+     <image src="{{item.image_src}}"
+    ></image>
+   </swiper-item>
+</swiper>
+
+<view class="cat">
+  <view wx:for="{{catItems.message}}" wx:key='index' class="catItem">
+      <image src="{{item.image_src}}" mode="widthFix"></image>
+  </view>
+</view>
+
+<view wx:for="{{floorData.message}}" wx:key='index' class="shop">
+<bolck>
+  <text class="floor_title">{{item.floor_title.name}}</text>
+</bolck>
+<view class="product_lists">
+   <view wx:for="{{item.product_list}}" wx:key='index' class="product_list" wx:for-item='list'>
+      <image src="{{list.image_src}}" mode="scaleToFill"></image>
+  </view>
+</view>
+ 
+</view>

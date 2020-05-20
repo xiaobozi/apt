@@ -1,0 +1,94 @@
+/* pages/index2/index.wxss */
+.btn {
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin-top: 50rpx;
+  transform: scale(.8);
+}
+.login {
+  height: 300rpx;
+}
+
+.function {
+  height: 500rpx;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+}
+.function .top {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 28rpx 0;
+  text-align: center;
+}
+.top .toplist .iconfont {
+  font-size: 60rpx;
+}
+.top .toplist text {
+  display: block;
+  font-size: 30rpx;
+}
+.bottom {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30rpx;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.bottom.b {
+  margin-top: 0;
+}
+.bottom .one {
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.bottom .two {
+  margin : 10rpx;
+  font-size: 30rpx;
+}
+.bottom .three {
+  font-size: 30rpx;
+}
+.loginimg{
+  position: absolute;
+  top: 60rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 9999;
+}
+.tt{
+  position: absolute;
+  top: 280rpx;
+  left: 50%;
+  z-index: 9999;
+  transform: translateX(-50%);
+}
+.loginimg1{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imgBg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(18rpx);
+}
+.imgBg image{
+  width: 100%;
+  height: 100%;
+  
+}
+

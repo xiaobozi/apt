@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "sInput" : "/components/Sinput/Sinput"
+  },
+    "navigationBarBackgroundColor": "#f93553",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "爱拼团",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false ,
+    "navigationStyle" : "default"
+}

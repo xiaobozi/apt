@@ -1,0 +1,50 @@
+<view class='login'>
+  <button type="warn" class="btn" plain="true" open-type="getUserInfo" bindgetuserinfo="fn"
+    wx:if='{{!admin}}'>登录</button>
+  <view wx:else class="loginimg1">
+    <view class="img">
+      <image src="{{admin.url}}" class="loginimg"></image>
+    </view>
+    <view class="imgBg">
+      <image src="{{admin.url}}" class="loginimg"></image>
+    </view>
+    <text class="tt">{{admin.name}}</text>
+  </view>
+</view>
+<view class='function'>
+  <view class="top">
+
+    <view class="toplist">
+      <view class="iconfont icon-icon-test topfont"><text>代收款</text></view>
+    </view>
+
+    <view class="toplist">
+      <view class="iconfont icon-daishouhuo topfont"> <text>待收货</text></view>
+    </view>
+
+    <view class="toplist">
+      <view class="iconfont icon-tuikuan topfont"><text>退款/订单</text></view>
+    </view>
+
+    <view class="toplist">
+      <view class="iconfont icon-quanbudingdan topfont"><text>全部订单</text></view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="iconfont icon-lianxikefu one">
+      <text class="two">联系客服</text>
+    </view>
+    <text class="three">400-618-4000</text>
+  </view>
+  <view class="bottom b">
+    <view class="iconfont icon-yijianfankui one">
+      <text class="two">意见反馈</text>
+    </view>
+  </view>
+  <view class="bottom b">
+    <view class="iconfont icon-ziyuan one">
+      <text class="two">当前版本</text>
+    </view>
+    <text class="three">v4.1.1</text>
+  </view>
+</view>
