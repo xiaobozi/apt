@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "tab" : "/components/Tab/Tab"
   },
   "navigationBarBackgroundColor": "#f93553",
   "navigationBarTextStyle": "white",

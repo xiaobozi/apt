@@ -30,21 +30,7 @@
       <view class="iconfont icon-quanbudingdan topfont"><text>全部订单</text></view>
     </view>
   </view>
-  <view class="bottom">
-    <view class="iconfont icon-lianxikefu one">
-      <text class="two">联系客服</text>
-    </view>
-    <text class="three">400-618-4000</text>
-  </view>
-  <view class="bottom b">
-    <view class="iconfont icon-yijianfankui one">
-      <text class="two">意见反馈</text>
-    </view>
-  </view>
-  <view class="bottom b">
-    <view class="iconfont icon-ziyuan one">
-      <text class="two">当前版本</text>
-    </view>
-    <text class="three">v4.1.1</text>
-  </view>
+    <tab title='联系客服' num='v4.1.1'  icon='icon-lianxikefu'/>
+    <tab title='意见反馈' num=''  icon='icon-yijianfankui'/>
+    <tab title='当前版本' num='v4.1.1'  icon='icon-ziyuan'/>
 </view>

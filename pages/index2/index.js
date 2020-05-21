@@ -7,7 +7,6 @@ Page({
   data: {
   },
   fn(e){
-      console.log(e)
     let admin = {url : e.detail.userInfo.avatarUrl,name : e.detail.userInfo.nickName}
     this.setData({ admin })
     wx.setStorage({
@@ -19,12 +18,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-     wx.getStorage({
-      key: 'login',
-    }).then(e => {
-      let admin = e.data
-     this.setData({admin})
-    })
+    //  wx.getStorage({
+    //   key: 'login',
+    // }).then(e => {
+    //   let admin = e.data
+    //  this.setData({admin})
+    // })
+    let admin = wx.getStorageSync('login')
+    this.setData(admin)
   },
 
   /**

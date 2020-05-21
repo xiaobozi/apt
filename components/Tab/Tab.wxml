@@ -1,0 +1,7 @@
+<view class="bottom b">
+    <view class="iconfont one {{icon}}">
+      <text class="two">{{title}}</text>
+      
+    </view>
+    <text class="three">{{num}}</text>
+  </view>

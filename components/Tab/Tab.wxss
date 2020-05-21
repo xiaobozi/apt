@@ -1,0 +1,24 @@
+/* components/Tab/Tab.wxss */
+@import '/style/iconfont.wxss';
+.bottom {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30rpx;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.bottom .one {
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.bottom .two {
+  margin : 10rpx;
+  font-size: 30rpx;
+}
+.bottom .three {
+  font-size: 30rpx;
+}
